@@ -5,17 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stemmer</title>
 <link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-  <header><nav>
-    <ul>
-      <li><a href="#index">index</a></li>
-      <li><a href="#nominering">nominering</a></li>
-      <li><a href="#log-inn">log-inn</a></li>
-      <li><a href="#registrering">registrering</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <h1>LOGO</h1>
+     <section class="meny-wrapper">
+      <input type="checkbox" id="btn" hidden>
+      <label for="btn" class="menu-btn"> 
+           <!-- Lukket meny/hamburgerern  -->
+           <i class="fas fa-bars"></i> 
+           <!-- x-ut menyen  -->
+           <i class="far fa-times-circle"></i> 
+      </label>
+     <nav id="mobil-meny">
+          <ul class="list-items">
+              <li><a href="#index"><i class="fas fa-home"></i>Hjem</a></li>
+              <li><a href="#log-inn"><i class="fas fa-user"></i>Logg inn</a></li>
+              <li><a href="#nominering"><i class="fas fa-address-book"></i>Nominere</a></li>
+              <li><a href="#avstemming"><i class="fas fa-person-booth"></i>Gi din stemme</a></li>
+              <li><a href="#registrering"><i class="fas fa-user-plus"></i>Registrering</a></li>
+
+            </ul>
+         <!--    <section class="SoMe-ikoner">
+                <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-tv"></i></a>
+            </section> -->
+      </nav>
+    </section>
+  </header>
   <main>
     <section class="section index" id="index">
       <p>Index</p>
